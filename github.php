@@ -10,6 +10,6 @@ if ( $_POST['payload'] ) {
 
 } else  {
     
-    die("Sorry this is not right");
+    shell_exec("git pull");
 }
 
